@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GitHub Organizations</title>
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+
+    <div class="main-content-body">
+        <header>
+            <hi>GitHub Organizations</hi>
+        </header>
+        <form class="searchBar" autocomplete="off">
+            <input class="userSearch" type="text" name="git search" placeholder="Search for someone...">
+        </form>
+        <input class="getUserOrg" type="button" value="Get Affiliated Organizations" />
+        <section class="org-display">
+
+        </section>
+
+    </div>
+    <script id="gitOrgTemplate" type="text/x-handlebars-template">
+        <div class="gitOrgObj">
+            <img src="{{image}}" />
+            <h1>{{title}}</h1>
+        </div>
+    </script>
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="js/vendor/handlebars-v4.0.5.js"></script>
+    <script src="js/shit.js"></script>
+</body>
+
+</html>

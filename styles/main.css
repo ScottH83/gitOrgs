@@ -1,0 +1,47 @@
+header {
+  text-align: center; }
+
+body {
+  align-self: center;
+  display: flex;
+  margin-left: 40px;
+  position: relative;
+  width: 100%; }
+
+.main-content-body {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 860px;
+  margin: 120px;
+  position: absolute;
+  width: 85%; }
+  .main-content-body header {
+    font-size: 40px;
+    margin: 10px; }
+  .main-content-body nav {
+    position: absolute;
+    width: 40%; }
+    .main-content-body nav .searchBar {
+      border: 1px solid green;
+      border-radius: 5px;
+      font-size: 30px;
+      position: absolute;
+      width: 100%; }
+
+.org-display {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  height: 80%;
+  justify-content: space-around;
+  position: relative;
+  margin: 30px 30px 80px;
+  width: 90%; }
+
+/*# sourceMappingURL=main.css.map */

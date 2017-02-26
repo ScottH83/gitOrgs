@@ -1,0 +1,19 @@
+.org-display {
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    height: 80%;
+    justify-content: space-around;
+    position: relative;
+    margin: 30px 30px 80px;
+    width: 90%;
+    // .single-org {
+    //     border: 1px solid black;
+    //     border-radius: 20px;
+    //     height: 90%;
+    //     width: 90%;
+    // }
+}
